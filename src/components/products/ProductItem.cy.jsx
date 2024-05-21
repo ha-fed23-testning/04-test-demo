@@ -6,4 +6,7 @@ describe('<ProductItem />', () => {
 		const testData = { id: 1, name: 'Beach ball', price: 20, category: 'Beach' }
 		cy.mount(<ProductItem product={testData} />)
 	})
+
+	// Testfall
+	// den renderar namn, pris och kategori
 })

@@ -7,4 +7,8 @@ describe('<ProductGrid />', () => {
 		// see: https://on.cypress.io/mounting-react
 		cy.mount(<ProductGrid />)
 	})
+
+	// Testfall:
+	// visar så många produkter som finns i store
+	// visar en specifik produkts namn och pris
 })
