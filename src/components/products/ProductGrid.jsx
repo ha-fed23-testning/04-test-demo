@@ -1,8 +1,8 @@
 import ProductItem from "./ProductItem"
-
+import { useStore } from '../../data/store.js'
 
 const ProductGrid = () => {
-	const products = []  // TODO: hämta från zustand
+	const products = useStore(state => state.products)
 
 	return (
 		<div className="product-grid">

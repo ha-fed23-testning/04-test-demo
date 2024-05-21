@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 const ProductItem = ({ product }) => (
-	<article>
+	<article className="product">
 		<div> {product.name} </div>
 		<div> {product.price} </div>
 		<div> {product.category} </div>

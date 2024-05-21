@@ -1,4 +1,15 @@
+import { create } from "zustand";
 
+
+const useStore = create(set => ({
+	products: [],
+
+	setProducts: data => set({ products: data }),
+
+}))
+export { useStore }
+
+// Exempel på data
 const summerToys = [
 	{
 		id: 1,
