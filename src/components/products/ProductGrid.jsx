@@ -1,3 +1,4 @@
+import ProductItem from "./ProductItem"
 
 
 const ProductGrid = () => {
@@ -6,7 +7,7 @@ const ProductGrid = () => {
 	return (
 		<div className="product-grid">
 			{products.map(product => (
-				'item'
+				<ProductItem key={product.id} product={product} />
 			))}
 		</div>
 	)
